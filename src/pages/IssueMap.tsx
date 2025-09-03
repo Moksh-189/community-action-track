@@ -86,10 +86,10 @@ const IssueMap = () => {
                   Back to Home
                 </Button>
               </Link>
-              <div className="flex items-center space-x-2">
+              <Link to="/" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
                 <div className="w-6 h-6 bg-gradient-to-br from-primary to-success rounded"></div>
                 <span className="font-bold text-foreground">CivicReport</span>
-              </div>
+              </Link>
             </div>
             <Link to="/report">
               <Button className="bg-gradient-to-r from-primary to-primary-hover">
