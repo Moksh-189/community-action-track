@@ -46,20 +46,17 @@ const Index = () => {
               <div className="w-8 h-8 bg-gradient-to-br from-primary to-success rounded-lg"></div>
               <span className="text-xl font-bold text-foreground">CivicReport</span>
             </div>
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center justify-between w-full">
+              <div className="flex items-center space-x-4">
+                <Link to="/admin-login">
+                  <Button variant="ghost">Admin</Button>
+                </Link>
+                <Link to="/department">
+                  <Button variant="ghost">Department</Button>
+                </Link>
+              </div>
               <Link to="/report">
                 <Button className="bg-primary text-white hover:bg-primary/90">Report Issue</Button>
-              </Link>
-              <Link to="/admin-login">
-                <Button variant="ghost">Admin</Button>
-              </Link>
-              <Link to="/department">
-                <Button variant="ghost">Department</Button>
-              </Link>
-              <Link to="/report">
-                <Button className="bg-gradient-to-r from-primary to-primary-hover hover:opacity-90 transition-opacity">
-                  Report Issue
-                </Button>
               </Link>
             </div>
           </nav>
