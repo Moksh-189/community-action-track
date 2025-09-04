@@ -47,8 +47,8 @@ const Index = () => {
               <span className="text-xl font-bold text-foreground">CivicReport</span>
             </div>
             <div className="flex items-center space-x-4">
-              <Link to="/user-login">
-                <Button variant="ghost">Login</Button>
+              <Link to="/report">
+                <Button className="bg-primary text-white hover:bg-primary/90">Report Issue</Button>
               </Link>
               <Link to="/admin-login">
                 <Button variant="ghost">Admin</Button>
