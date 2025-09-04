@@ -81,7 +81,7 @@ const Index = () => {
               Community-Driven Solutions
             </Badge>
             <h1 className="text-4xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              Report Issues.
+              Your Voice. Your Street. Your Change.
               <br />
               <span className="bg-gradient-to-r from-white to-success-foreground bg-clip-text text-transparent">
                 Build Community.
