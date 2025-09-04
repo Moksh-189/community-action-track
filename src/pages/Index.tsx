@@ -48,11 +48,11 @@ const Index = () => {
             </div>
             <div className="flex items-center justify-between w-full">
               <div className="flex items-center space-x-4">
+              </div>
+              <div className="flex items-center space-x-4">
                 <Link to="/admin-login">
                   <Button variant="ghost">Admin</Button>
                 </Link>
-              </div>
-              <div className="flex items-center space-x-4">
                 <Link to="/department">
                   <Button variant="ghost">Department</Button>
                 </Link>
