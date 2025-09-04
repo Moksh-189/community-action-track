@@ -7,10 +7,10 @@ import heroImage from "@/assets/hero-civic.jpg";
 
 const Index = () => {
   const stats = [
-    { label: "Issues Reported", value: "2,847", icon: MapPin },
-    { label: "Issues Resolved", value: "2,203", icon: CheckCircle2 },
-    { label: "Active Users", value: "12,450", icon: Users },
-    { label: "Response Time", value: "2.3 days", icon: BarChart3 },
+    { label: "Issues Reported ", value: "60", icon: MapPin },
+    { label: "Issues Resolved", value: "55", icon: CheckCircle2 },
+    { label: "Active Users", value: "200", icon: Users },
+    { label: "Response Time", value: "1 day(s)", icon: BarChart3 },
   ];
 
   const features = [
@@ -83,9 +83,7 @@ const Index = () => {
             <h1 className="text-4xl lg:text-6xl font-bold text-white mb-6 leading-tight">
               Your Voice. Your Street. Your Change.
               <br />
-              <span className="bg-gradient-to-r from-white to-success-foreground bg-clip-text text-transparent">
-                Build Community.
-              </span>
+              
             </h1>
             <p className="text-xl text-white/90 mb-8 leading-relaxed">
               Help improve your neighborhood by reporting issues directly to local authorities. 
@@ -102,7 +100,7 @@ const Index = () => {
                 <Button 
                   size="lg" 
                   variant="outline" 
-                  className="border-white text-white hover:bg-white/10 w-full sm:w-auto"
+                  className="border-white text-blue-600 w-full sm:w-auto"
                 >
                   <MapPin className="mr-2 h-5 w-5" />
                   View Issue Map
@@ -189,9 +187,6 @@ const Index = () => {
               <div className="w-8 h-8 bg-gradient-to-br from-primary to-success rounded-lg"></div>
               <span className="text-xl font-bold">CivicReport</span>
             </div>
-            <p className="text-white/70 text-center md:text-right">
-              © 2024 CivicReport. Building stronger communities together.
-            </p>
           </div>
         </div>
       </footer>
