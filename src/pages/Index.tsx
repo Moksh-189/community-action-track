@@ -55,8 +55,8 @@ const Index = () => {
                   <Button variant="ghost">Department</Button>
                 </Link>
               </div>
-              <Link to="/report">
-                <Button className="bg-primary text-white hover:bg-primary/90">Report Issue</Button>
+              <Link to="/user-login">
+                <Button className="bg-primary text-white hover:bg-primary/90">Login</Button>
               </Link>
             </div>
           </nav>
