@@ -51,13 +51,15 @@ const Index = () => {
                 <Link to="/admin-login">
                   <Button variant="ghost">Admin</Button>
                 </Link>
+              </div>
+              <div className="flex items-center space-x-4">
                 <Link to="/department">
                   <Button variant="ghost">Department</Button>
                 </Link>
+                <Link to="/user-login">
+                  <Button className="bg-primary text-white hover:bg-primary/90">Login</Button>
+                </Link>
               </div>
-              <Link to="/user-login">
-                <Button className="bg-primary text-white hover:bg-primary/90">Login</Button>
-              </Link>
             </div>
           </nav>
         </div>
